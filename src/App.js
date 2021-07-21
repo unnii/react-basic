@@ -1,4 +1,4 @@
-import {NavItem,HeaderItem} from "./components/components/Expenseitem"
+import {NavItem,HeaderItem,FormsItem} from "./components/components/Expenseitem"
 
 const App = ()=> {
     const expenses = {
@@ -11,6 +11,7 @@ const App = ()=> {
     <div>
         <NavItem />
         <HeaderItem heading1={expenses.heading1}  heading2={expenses.heading2}  description1={expenses.description1}  description2={expenses.description2}  />
+        <FormsItem />
      </div >
     );
 }
